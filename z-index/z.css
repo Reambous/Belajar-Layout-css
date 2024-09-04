@@ -1,0 +1,26 @@
+*{
+    margin-top: 53px;
+}
+
+.judul{
+    background-color: orangered;
+    position: fixed;
+    top: 0px;
+    height: 40px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 13px;
+    z-index: 2;
+}
+
+.container{
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+}
+
+/* semakin banyak angka z-index maka semakin didepankan */
+
+
+

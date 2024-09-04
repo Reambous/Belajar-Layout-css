@@ -1,0 +1,39 @@
+*{
+    margin-bottom: 55px;
+}
+
+p{
+    background-color: aqua;
+}
+
+/* sesuai dengan tempatnya */
+.relative{
+    background-color: red;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
+
+/* sesuai dengan kotaknya */
+.absolute{
+    background-color: brown;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+/* fixed bakal diposisi sama walau scroll sesuai scroll */
+.fixed{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+    height: 55px;
+}
+
+/* Sticky bakal ngikutin scrollan jika sudah melewati batas */
+.sticky{
+    background-color: coral;
+    position: sticky;
+    top: 0px;
+}
+

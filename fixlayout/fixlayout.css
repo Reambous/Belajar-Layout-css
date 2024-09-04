@@ -1,0 +1,61 @@
+*{
+    font-family: tahoma;
+}
+
+body{
+    margin:0 auto;
+    width: 960px;
+}
+
+#header{
+    text-align: center;
+
+}
+
+#list{
+    background-color: #efefee;
+    height: 70px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#header li{
+    display: inline;
+    padding: 10px;
+}
+
+#highlight{
+    background-color: #efefee;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#highlight img{
+    width: 35%;
+}
+
+.artikel{
+    background-color: #ededed;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    height: 240px;
+}
+
+#konten{
+    height: 100%;
+    overflow: auto;
+}
+
+#footer{
+    background-color: #efefee;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
